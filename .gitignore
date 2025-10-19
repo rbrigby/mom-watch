@@ -1,0 +1,59 @@
+# Bundler
+/.bundle
+/vendor/bundle
+
+# Logs and temp
+/log/*
+/tmp/*
+!/log/.keep
+!/tmp/.keep
+/tmp/pids/*
+/tmp/cache/*
+/tmp/sockets/*
+
+# Storage (Active Storage local)
+/storage/*
+!/storage/.keep
+
+# Node/npm/yarn
+/node_modules/
+/yarn-error.log
+npm-debug.log*
+
+# Build outputs (jsbundling/cssbundling)
+/app/assets/builds/*
+!/app/assets/builds/.keep
+
+# Asset pipelines (if used)
+/public/assets
+/public/packs
+/public/packs-test
+
+# SQLite databases
+/db/*.sqlite3
+/db/*.sqlite3-*
+
+# Credentials/keys
+/config/master.key
+/config/credentials/*.key
+
+# Test/coverage
+/coverage/
+/spec/examples.txt
+
+# Editors/OS
+/.idea/
+/.vscode/
+.DS_Store
+*.swp
+
+# Kamal deploy secrets
+/.kamal/secrets
+
+# Debug/history
+.byebug_history
+
+# Environment files (if you use dotenv)
+.env
+.env.*
+
