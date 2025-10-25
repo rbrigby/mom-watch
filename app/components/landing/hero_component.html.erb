@@ -1,0 +1,23 @@
+<section class="relative isolate overflow-hidden bg-gray-950 text-white">
+  <div class="mx-auto max-w-7xl px-6 py-24 lg:flex lg:items-center lg:gap-x-16 lg:px-8 lg:py-32">
+    <div class="mx-auto max-w-2xl lg:mx-0 lg:flex-auto">
+      <h1 class="text-balance text-4xl font-semibold tracking-tight sm:text-6xl">
+        <%= title %>
+      </h1>
+      <p class="mt-6 text-pretty text-lg leading-8 text-gray-300">
+        <%= subtitle %>
+      </p>
+      <div class="mt-10 flex items-center gap-x-6">
+        <a href="<%= primary_cta_href %>" class="rounded-md bg-emerald-500 px-5 py-3 text-sm font-semibold text-white shadow-sm hover:bg-emerald-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-emerald-500">
+          <%= primary_cta_text %>
+        </a>
+        <a href="<%= secondary_cta_href %>" class="text-sm font-semibold leading-6 text-white/80 hover:text-white">
+          <%= secondary_cta_text %> →
+        </a>
+      </div>
+    </div>
+  </div>
+  <div class="pointer-events-none absolute inset-0 -z-10 bg-[radial-gradient(60rem_60rem_at_50%_-10rem,rgba(16,185,129,0.15),transparent)]"></div>
+</section>
+
+

@@ -1,0 +1,14 @@
+<section class="bg-white">
+  <div class="mx-auto max-w-7xl px-6 py-16 lg:px-8">
+    <div class="grid grid-cols-1 gap-8 text-center sm:grid-cols-3">
+      <% stats.each do |stat| %>
+        <div class="rounded-2xl border border-gray-200 p-8 shadow-sm">
+          <div class="text-3xl font-semibold text-gray-900"><%= stat[:value] %></div>
+          <div class="mt-2 text-sm text-gray-600"><%= stat[:label] %></div>
+        </div>
+      <% end %>
+    </div>
+  </div>
+</section>
+
+

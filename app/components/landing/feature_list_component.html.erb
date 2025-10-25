@@ -1,0 +1,18 @@
+<section class="bg-white">
+  <div class="mx-auto max-w-7xl px-6 py-16 lg:px-8">
+    <div class="mx-auto max-w-2xl text-center">
+      <h2 class="text-3xl font-semibold tracking-tight text-gray-900 sm:text-4xl">Made to sell, built to scale</h2>
+      <p class="mt-4 text-gray-600">A flexible, modern foundation that lets you move fast and iterate.</p>
+    </div>
+    <dl class="mt-12 grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3">
+      <% features.each do |feature| %>
+        <div class="rounded-2xl border border-gray-200 p-6 shadow-sm">
+          <dt class="text-base font-semibold text-gray-900"><%= feature[:title] %></dt>
+          <dd class="mt-2 text-sm text-gray-600"><%= feature[:description] %></dd>
+        </div>
+      <% end %>
+    </dl>
+  </div>
+</section>
+
+

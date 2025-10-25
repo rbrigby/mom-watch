@@ -1,3 +1,22 @@
-<h1>Home#index.</h1>
-<p>Find me in app/views/home/index..html.erb</p>
-<%= render HelloComponent.new(name: "Rails") %>
+<%= render Landing::HeroComponent.new(
+  title: "Mom Watch",
+  subtitle: "Dont let bigtech radicalize your kids.",
+  primary_cta_text: "Join the waitlist",
+  primary_cta_href: "#",
+  secondary_cta_text: "Why this platform",
+  secondary_cta_href: "#"
+) %>
+
+<!-- Disable logo cloud component for now 
+<% render Landing::LogoCloudComponent.new %>
+-->
+
+<%= render Landing::FeatureListComponent.new %>
+
+<%= render Landing::ChannelsComponent.new %>
+
+<%= render Landing::StatsComponent.new %>
+
+<%= render Landing::TestimonialComponent.new %>
+
+<%= render Landing::CtaComponent.new %>

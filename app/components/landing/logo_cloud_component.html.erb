@@ -1,0 +1,19 @@
+<section class="bg-white">
+  <div class="mx-auto max-w-7xl px-6 py-12 lg:px-8">
+    <p class="text-center text-sm font-semibold uppercase tracking-widest text-gray-500">
+      Trusted by modern brands
+    </p>
+    <ul class="mt-8 grid grid-cols-2 items-center gap-x-8 gap-y-6 text-gray-700 sm:grid-cols-3 md:grid-cols-6">
+      <% brands.each do |brand| %>
+        <li class="text-center text-sm font-medium opacity-60 hover:opacity-100 transition">
+          <span class="inline-block rounded-md bg-gray-50 px-3 py-2 ring-1 ring-gray-200">
+            <%= brand[:name] %>
+          </span>
+        </li>
+      <% end %>
+    </ul>
+  </div>
+  <div class="h-px w-full bg-gradient-to-r from-transparent via-gray-200 to-transparent"></div>
+</section>
+
+
