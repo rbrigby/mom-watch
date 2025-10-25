@@ -21,6 +21,11 @@ gem "jbuilder"
 
 gem "view_component", "~> 4.0"
 
+# YouTube API client and subtitle parsing
+gem "google-apis-youtube_v3"
+gem "srt"
+gem "webvtt"
+
 # Use Active Model has_secure_password [https://guides.rubyonrails.org/active_model_basics.html#securepassword]
 # gem "bcrypt", "~> 3.1.7"
 
